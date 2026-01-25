@@ -1,9 +1,100 @@
-简单对 react 进行封装，使用 vite 进行打包
+# mas-react
 
-集成库官网地址：
+一个基于 React + TypeScript + Vite 构建的现代化前端项目。
 
-react-router-dom: https://reactrouter.com/en/main
+## ✨ 特性
 
-antd: https://ant.design/index-cn
+- ⚡️ **快速开发** - 使用 Vite 作为构建工具，提供极速的开发体验
+- 🎨 **UI 组件库** - 集成 Ant Design 5.x，提供丰富的组件和样式
+- 🔒 **类型安全** - 使用 TypeScript 确保代码的类型安全
+- 🎯 **路由管理** - 使用 React Router v6 进行路由管理
+- 📦 **状态管理** - 内置状态管理方案
+- 🌐 **HTTP 请求** - 集成 Axios 进行网络请求
+- 💅 **样式方案** - 支持 Less 预处理器和 CSS Modules
+- 🔐 **加密工具** - 集成 mas-encrypt 加密库
 
-mas-encrypt: https://www.npmjs.com/package/mas-encrypt
+## 🛠️ 技术栈
+
+- **框架**: React 18.2
+- **语言**: TypeScript 5.0
+- **构建工具**: Vite 4.3
+- **UI 组件库**: Ant Design 5.6
+- **路由**: React Router 6.11
+- **HTTP 客户端**: Axios 1.4
+- **样式预处理**: Less 4.1
+- **代码规范**: ESLint
+- **包管理器**: Bun
+
+## 📦 安装
+
+确保你已经安装了 [Bun](https://bun.sh/)，然后运行：
+
+```bash
+# 安装依赖
+bun install
+```
+
+## 🚀 快速开始
+
+```bash
+# 启动开发服务器
+bun dev
+
+# 构建生产版本
+bun run build
+
+# 预览生产构建
+bun run preview
+
+# 代码检查
+bun run lint
+```
+
+## 📁 项目结构
+
+```
+mas-react/
+├── src/
+│   ├── assets/          # 静态资源
+│   ├── components/      # 公共组件
+│   ├── http/            # HTTP 请求配置
+│   ├── layout/          # 布局组件
+│   ├── router/          # 路由配置
+│   ├── store/           # 状态管理
+│   ├── utils/           # 工具函数
+│   ├── views/           # 页面组件
+│   ├── global.less      # 全局样式
+│   ├── theme.less       # 主题配置
+│   └── main.tsx         # 入口文件
+├── index.html           # HTML 模板
+├── vite.config.ts       # Vite 配置
+├── tsconfig.json        # TypeScript 配置
+└── package.json         # 项目配置
+```
+
+## 🔧 配置说明
+
+### 路径别名
+
+项目配置了路径别名 `@` 指向 `src` 目录，可以在导入时使用：
+
+```typescript
+import Layout from "@/layout/Layout";
+import { router } from "@/router";
+```
+
+### 环境变量
+
+- `NODE_ENV=development` - 开发环境
+- `NODE_ENV=production` - 生产环境
+
+## 📝 开发规范
+
+- 使用 TypeScript 进行类型定义
+- 函数和类型注释使用 JSDoc 格式
+- 遵循 ESLint 代码规范
+- 组件样式优先使用 CSS Modules
+
+## 📄 License
+
+MIT
