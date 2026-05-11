@@ -10,11 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ant-design/icons": "^5.2.6",
-    "antd": "^5.6.0",
     "axios": "^1.4.0",
     "e-boxes": "^0.0.2",
-    "mas-encrypt": "^1.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2"
