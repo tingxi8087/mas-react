@@ -5,50 +5,23 @@
 ## ✨ 特性
 
 - ⚡️ **快速开发** - 使用 Vite 作为构建工具，提供极速的开发体验
-- 🎨 **UI 组件库** - 集成 Ant Design 5.x，提供丰富的组件和样式
 - 🔒 **类型安全** - 使用 TypeScript 确保代码的类型安全
 - 🎯 **路由管理** - 使用 React Router v6 进行路由管理
 - 📦 **状态管理** - 内置状态管理方案
 - 🌐 **HTTP 请求** - 集成 Axios 进行网络请求
 - 💅 **样式方案** - 支持 Less 预处理器和 CSS Modules
-- 🔐 **加密工具** - 集成 mas-encrypt 加密库
 
 ## 🛠️ 技术栈
 
 - **框架**: React 18.2
 - **语言**: TypeScript 5.0
 - **构建工具**: Vite 4.3
-- **UI 组件库**: Ant Design 5.6
 - **路由**: React Router 6.11
 - **HTTP 客户端**: Axios 1.4
 - **样式预处理**: Less 4.1
 - **代码规范**: ESLint
-- **包管理器**: Bun
 
-## 📦 安装
 
-确保你已经安装了 [Bun](https://bun.sh/)，然后运行：
-
-```bash
-# 安装依赖
-bun install
-```
-
-## 🚀 快速开始
-
-```bash
-# 启动开发服务器
-bun dev
-
-# 构建生产版本
-bun run build
-
-# 预览生产构建
-bun run preview
-
-# 代码检查
-bun run lint
-```
 
 ## 📁 项目结构
 
