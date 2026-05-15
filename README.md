@@ -67,6 +67,7 @@ import { router } from "@/router";
 - 函数和类型注释使用 JSDoc 格式
 - 遵循 ESLint 代码规范
 - 组件样式优先使用 CSS Modules
+- 安装尽量使用cnpm
 
 ## 📄 License
 
